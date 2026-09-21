@@ -9,14 +9,14 @@ Status: author review, not a frozen submission release.
 | Original component study | Author-supplied component table image, 21 September 2026 | Label remains “Original experiment” as supplied; backend identity awaits confirmation. The earlier manuscript describes a 25-request subset. |
 | Yue3 components | Author-supplied component table image and earlier precise values | The superseded sixth row is excluded. Memory is one setting; experience summary disabled. No new SongGeneration2 component values are invented. |
 | 100 requests and gold rubrics | Local full-100 evaluation snapshot | Stable public IDs replace private IDs. Three examples are presented in the original revision workflow; no full benchmark browser. Final release confirmation pending. No user logs or expert identities. |
-| Seven ACE examples | Local curated cases export; backend identified as ACE by the author | Request text, recorded prompts, selected item scores, and actual audio roles preserved. Chinese editorial descriptions adapted into English with narrower causal claims. |
+| Seven ACE-Step v1.5 Turbo examples | Local curated cases export; backend identified as ACE-Step v1.5 Turbo by the author | Request text, recorded prompts, selected item scores, and actual audio roles preserved. Chinese editorial descriptions adapted into English with narrower causal claims. |
 | Six additional trajectories | Author-selected export, 21 September 2026 | Three YuE2-3B and three SongGeneration2 Large cases. Parent / selected / root roles, prompts, all exported item scores and audio retained. Online MF scores only. Historical SongGeneration2 runs have item memory disabled; not the pending new memory experiment. |
 | Evaluation instructions | Local written study protocol and interface | 1–20 item ratings with separate uncertain; 1–5 system ratings with ties. Older seed scale is not used. |
 | Evaluation candidates | Four real outputs for one request outside the curated case set | A/B/C/D; system mapping is not distributed. |
 
 ## Audio
 
-The ACE collection uses 16-bit PCM WAV. The new export includes float32 WAV and lossless FLAC. Source audio samples and precision are retained; local sanitized containers have ancillary metadata removed. MP3 previews use 320 kbps with no loudness normalization, trimming, or dynamic processing. MP3 compression is lossy and may alter perceptual details. Reported source scores refer to the original audio, not rescoring of MP3 previews. Waveforms are computed from the PCM samples.
+The ACE-Step v1.5 Turbo collection uses 16-bit PCM WAV. The new export includes float32 WAV and lossless FLAC. Source audio samples and precision are retained; local sanitized containers have ancillary metadata removed. MP3 previews use 320 kbps with no loudness normalization, trimming, or dynamic processing. MP3 compression is lossy and may alter perceptual details. Reported source scores refer to the original audio, not rescoring of MP3 previews. Waveforms are computed from the PCM samples.
 
 Files are deduplicated by content. Identical audio retains its distinct case roles while sharing a resource. Only actual recorded nodes are exposed. The complete search tree and all rubric-item scores were not present in the export.
 
@@ -34,11 +34,11 @@ Following author review, the project homepage uses the original MIRA overview an
 
 ## Additional case selection and media capacity
 
-The gallery separates 3 YuE trajectories, 3 SongGeneration2 trajectories, 4 ACE comparisons, and 3 tool-grounding examples. New entries are curated demonstrations, not confirmed human-listening outcomes. The ambient SongGeneration2 root is only 3.64 seconds and is shown as a duration anomaly; the primary comparison uses the two 90-second parent and selected nodes. The game-music example is marked partial success and exposes regressed requirements. The 0.6 item cutoff in the new gallery is a browsing aid, not a human pass/fail annotation.
+The gallery separates 3 YuE trajectories, 3 SongGeneration2 trajectories, 4 ACE-Step v1.5 Turbo comparisons, and 3 tool-grounding examples. New entries are curated demonstrations, not confirmed human-listening outcomes. The ambient SongGeneration2 root is only 3.64 seconds and is shown as a duration anomaly; the primary comparison uses the two 90-second parent and selected nodes. The game-music example is marked partial success and exposes regressed requirements. The 0.6 item cutoff in the new gallery is a browsing aid, not a human pass/fail annotation.
 
 The gallery contains 13 cases, including the three tool-grounding examples restored at the author's request. There are 42 unique audio tracks including the evaluation demo: approximately 1,195 MB of originals and 195 MB of MP3 previews. The public website serves only 320 kbps MP3 for both playback and downloads. Original WAV/FLAC files are retained locally and are not published.
 
-The website result tables have been updated independently of the downloadable manuscript PDF, which remains the supplied 16 September snapshot. The four homepage audio tabs illustrate ACE outputs; their scores belong to individual examples, not aggregate experiment results.
+The website result tables have been updated independently of the downloadable manuscript PDF, which remains the supplied 16 September snapshot. The four homepage audio tabs illustrate ACE-Step v1.5 Turbo outputs; their scores belong to individual examples, not aggregate experiment results.
 
 ## Website abstract
 

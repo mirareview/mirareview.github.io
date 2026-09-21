@@ -881,7 +881,7 @@
         "risk": ""
       }
     ],
-    "backend": "ACE"
+    "backend": "ACE-Step v1.5 Turbo"
   },
   {
     "original_prompt": "Create ultra-aggressive industrial Techno featuring severely overdriven, distorted kick drums and an intensely oppressive, syncopated rhythm. The sonic landscape is saturated with jagged, coarse, ear-splitting high-frequency textures, shrieking metallic feedback, and an unwavering, high-BPM mechanical drive. The atmosphere evokes pure sonic warfare—characterized by chaotic energy, crushing pressure, and a dark, ceaseless sense of impending collision. Make it sound like Ancient Methods.",
@@ -1616,7 +1616,7 @@
         "risk": "No direct source support; industrial techno genre convention inference"
       }
     ],
-    "backend": "ACE"
+    "backend": "ACE-Step v1.5 Turbo"
   },
   {
     "original_prompt": "Create an instrumental dark cinematic trap beat featuring reverb-saturated synth pads, a hypnotic minor-key bell melody, sharp rolling hi-hats, a crisp snare, a deep and melodic 808 bassline, strong and weighty syncopated rhythm, subtle filter sweeps, eerie timbral textures, and high-fashion late-night tension.",
@@ -2318,7 +2318,7 @@
       }
     ],
     "evidence": [],
-    "backend": "ACE"
+    "backend": "ACE-Step v1.5 Turbo"
   },
   {
     "original_prompt": "Ethereal lo-fi synthesizer, warm analog pads, vinyl crackle, distant celestial twinkles, slow tempo — an instrumental piece evoking the sensation of floating through a starry nebula. Use stormloop's \"Cosmic Equilibrium\" as the musical reference.",
@@ -3202,7 +3202,7 @@
         "risk": ""
       }
     ],
-    "backend": "ACE"
+    "backend": "ACE-Step v1.5 Turbo"
   },
   {
     "original_prompt": "An aggressive industrial Trap piece built on distorted, saturated 808s and earth-shaking sub-bass. The rhythm is driven by hard-hitting kicks and fast, surgical triplet hi-hats at 140 BPM, while dark, ominous bells form an unsettling melodic layer within a dense, gritty atmosphere. The track follows a high-energy structural arc—from a tension-building intro, through a powerful hook section and a driving verse—maintaining a loud, distorted aesthetic throughout. Use a sound inspired by Gesaffelstein.",
@@ -3922,7 +3922,7 @@
         "risk": ""
       }
     ],
-    "backend": "ACE"
+    "backend": "ACE-Step v1.5 Turbo"
   },
   {
     "original_prompt": "Retro synthwave, pounding rhythmic basslines, soothing pads, strong astral atmosphere, neon cityscapes, analog synthesizers — an instrumental track blending driving electronic grooves with cosmic, space-like atmospheres. Use a sound inspired by Com Truise.",
@@ -4640,7 +4640,7 @@
         "risk": ""
       }
     ],
-    "backend": "ACE"
+    "backend": "ACE-Step v1.5 Turbo"
   },
   {
     "original_prompt": "This is a broadcast opening theme for a championship challenge event—grand, exhilarating, and majestic, with the powerful sonic presence of electronic dance music and an authentic 1980s aesthetic. It must evoke the feeling that the entire world must watch this event, as it is larger, bolder, and more spectacular than any other competitive sport. It must also convey exclusivity, representing the IWC (I Win Challenge). Use Kavinsky as the musical reference.",
@@ -5553,6 +5553,6 @@
         "risk": ""
       }
     ],
-    "backend": "ACE"
+    "backend": "ACE-Step v1.5 Turbo"
   }
 ]

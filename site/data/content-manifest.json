@@ -22,7 +22,7 @@
     },
     {
       "id": "cases",
-      "description": "Seven ACE comparisons from the curated export, including the three restored tool-grounding cases"
+      "description": "Seven ACE-Step v1.5 Turbo comparisons from the curated export, including the three restored tool-grounding cases"
     },
     {
       "id": "protocol",
