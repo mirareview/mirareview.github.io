@@ -1,0 +1,60 @@
+{
+  "status": "author-review",
+  "benchmark": {
+    "requests": 100,
+    "rubrics": 1566,
+    "source": "Local full-100 evaluation snapshot; final release confirmation pending"
+  },
+  "cases": 13,
+  "evaluationCandidates": 4,
+  "uniqueAudioFiles": 42,
+  "mp3Bytes": 194735040,
+  "audioBudgetBytes": 600000000,
+  "encoding": "MP3 320 kbps without normalization or trimming; original samples unchanged in metadata-clean WAV or FLAC containers",
+  "sources": [
+    {
+      "id": "paper",
+      "description": "Supplied anonymous manuscript snapshot, 16 September 2026"
+    },
+    {
+      "id": "benchmark",
+      "description": "Full-100 benchmark evaluation snapshot"
+    },
+    {
+      "id": "cases",
+      "description": "Seven ACE comparisons from the curated export, including the three restored tool-grounding cases"
+    },
+    {
+      "id": "protocol",
+      "description": "Study protocol and rating interface snapshot"
+    },
+    {
+      "id": "yue3",
+      "description": "Author-provided Yue3 component results; excluded superseded 0.859894 row"
+    },
+    {
+      "id": "selected-trajectories",
+      "description": "Six author-selected YuE2-3B / SongGeneration2 Large search trajectories, 21 September 2026; online MF scores, not offline benchmark GT"
+    },
+    {
+      "id": "updated-result-tables",
+      "description": "Author-supplied main and cumulative-component table images, 21 September 2026. Main table: 19 rows, 11 metrics, three-decimal source precision. Earlier full-precision Yue3 ablation values retained; displayed values match the new table."
+    }
+  ],
+  "caseGroups": {
+    "aceComparisons": 4,
+    "toolGrounding": 3,
+    "yue": 3,
+    "songgeneration2": 3
+  },
+  "capacityStatus": "Pages contains MP3 audio and website assets. Original audio is retained locally only.",
+  "deployment": {
+    "mode": "github-pages-mp3-only",
+    "audioFormat": "MP3 320 kbps",
+    "downloads": "Same MP3 files used for playback",
+    "originalsPublished": false,
+    "repository": "mirareview/mirareview.github.io"
+  },
+  "localOriginalBytes": 1194975138,
+  "publishedOriginalBytes": 0
+}
