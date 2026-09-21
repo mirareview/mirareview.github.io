@@ -39,3 +39,7 @@ The gallery separates 3 YuE trajectories, 3 SongGeneration2 trajectories, 4 ACE 
 The gallery contains 13 cases, including the three tool-grounding examples restored at the author's request. There are 42 unique audio tracks including the evaluation demo: approximately 1,195 MB of originals and 195 MB of MP3 previews. The public website serves only 320 kbps MP3 for both playback and downloads. Original WAV/FLAC files are retained locally and are not published.
 
 The website result tables have been updated independently of the downloadable manuscript PDF, which remains the supplied 16 September snapshot. The four homepage audio tabs illustrate ACE outputs; their scores belong to individual examples, not aggregate experiment results.
+
+## Website abstract
+
+The website abstract uses the full text supplied by the author, beginning “Text-to-music systems produce increasingly convincing audio”. Only PDF line wrapping and line-end word splits were removed. The downloadable PDF remains the supplied manuscript snapshot.
