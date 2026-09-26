@@ -1,11 +1,12 @@
 {
   "benchmarkId": "MB-003",
-  "protocol": "Local study protocol / interface snapshot (1–20 item ratings; 1–5 system ratings)",
+  "protocol": "MIRA_FINAL.pdf, Appendix B and Table 6 (1–20 item ratings; 1–5 system ratings; 95% Student-t confidence intervals for the study)",
   "candidates": [
     {
       "label": "A",
       "audio": {
         "id": "audio-599d2a9abfb5ec59",
+        "wav": "media/audio-599d2a9abfb5ec59.wav",
         "mp3": "media/audio-599d2a9abfb5ec59.mp3",
         "duration": 193.88016666666667,
         "peaks": [
@@ -170,6 +171,7 @@
           0.5833,
           0.1834
         ],
+        "wavBytes": 37225036,
         "mp3Bytes": 7757760
       }
     },
@@ -177,6 +179,7 @@
       "label": "B",
       "audio": {
         "id": "audio-6f05a943d1db77d4",
+        "wav": "media/audio-6f05a943d1db77d4.wav",
         "mp3": "media/audio-6f05a943d1db77d4.mp3",
         "duration": 201.618875,
         "peaks": [
@@ -341,6 +344,7 @@
           0.5186,
           0.0603
         ],
+        "wavBytes": 38710868,
         "mp3Bytes": 8066880
       }
     },
@@ -348,6 +352,7 @@
       "label": "C",
       "audio": {
         "id": "audio-8390c50a27daa7db",
+        "wav": "media/audio-8390c50a27daa7db.wav",
         "mp3": "media/audio-8390c50a27daa7db.mp3",
         "duration": 90.0,
         "peaks": [
@@ -512,6 +517,7 @@
           0.0016,
           0.0027
         ],
+        "wavBytes": 17280044,
         "mp3Bytes": 3601920
       }
     },
@@ -519,6 +525,7 @@
       "label": "D",
       "audio": {
         "id": "audio-9510dd92344d8c85",
+        "wav": "media/audio-9510dd92344d8c85.wav",
         "mp3": "media/audio-9510dd92344d8c85.mp3",
         "duration": 144.0,
         "peaks": [
@@ -683,6 +690,7 @@
           0.0098,
           0.0053
         ],
+        "wavBytes": 27648044,
         "mp3Bytes": 5761920
       }
     }
