@@ -1,14 +1,12 @@
 # Content and provenance
 
-Status: author review, not a frozen submission release.
-
 | Content | Source | Treatment |
 | --- | --- | --- |
 | Downloadable paper and human-assessment protocol | Author-supplied MIRA_FINAL.pdf, updated 26 September 2026 | Download is the exact supplied PDF. Evaluation protocol reproduces Appendix B and Table 6. |
 | Main results | Author-supplied full MuRA-Bench table image, 21 September 2026 | 19 settings across refinement backends and direct API baselines; all 11 metrics transcribed at the supplied three-decimal precision. Includes YuE2-3B, Suno v6, Mureka V9.5, and StepAudio 3 Music. No aggregation recomputed. |
 | ACE-Step v1.5 Turbo component study | MIRA_FINAL.pdf, Table 3 and Appendix D.3 | Fixed subset of 20 requests. Direct uses B=1; Best-of-9, Tools + Best-of-9, Tools + Adaptive search, and Full MIRA use B=9. |
 | YuE2-3B component study | MIRA_FINAL.pdf, Table 3 and Appendix D.3 | Same fixed subset of 20 requests and five configurations. Displayed values match Table 3; numerical values are unchanged. |
-| 100 requests and gold rubrics | Local full-100 evaluation snapshot | Stable public IDs replace private IDs. Three examples are presented in the original revision workflow; no full benchmark browser. Final release confirmation pending. No user logs or expert identities. |
+| 100 requests and gold rubrics | Full-100 evaluation snapshot | Stable public IDs replace private IDs. Three examples are presented in the revision interface. No user logs or expert identities. |
 | Seven ACE-Step v1.5 Turbo examples | Local curated cases export; backend identified as ACE-Step v1.5 Turbo by the author | Request text, recorded prompts, selected item scores, and actual audio roles preserved. Chinese editorial descriptions adapted into English with narrower causal claims. |
 | Six additional trajectories | Author-selected export, 21 September 2026 | Three YuE2-3B and three SongGeneration2 Large cases. Parent / selected / root roles, prompts, all exported item scores and audio retained. Online MF scores only. |
 | Evaluation instructions | MIRA_FINAL.pdf, Appendix B and Table 6 | 1–20 item ratings; uncertain excluded; 1–5 system ratings with ties. Study means give 100 requests equal weight; two-sided 95% Student-t intervals, 99 degrees of freedom. Demo behavior is documented separately. |
@@ -24,13 +22,9 @@ Files are deduplicated by content. Identical audio retains its distinct case rol
 
 Online verifier scores and offline gold-rubric scores use different requirements. They are not interchangeable. Tool examples are end-to-end comparisons; they do not establish a same-seed causal ablation. The selected examples are not a representative sample for estimating mean effects. Improvements, recorded regressions, and remaining online failure counts are all exposed.
 
-## Release status
-
-Benchmark release identity, aggregate result provenance, study version reconciliation, and the anonymous hosting identity still require author confirmation. This version deliberately retains an author-review banner. No public repository or research-code archive is linked until that material has been audited and frozen.
-
 ## Interface adaptation
 
-Following author review, the project homepage uses the original MIRA overview and MuRA-Bench construction figures. The expert-revision demonstration ports the original task renderer and dimension-card helpers; the listening-study demonstration ports the original system/item renderers and completeness rules. Separate theme overrides match the project site. Bilingual sample fields come from the source snapshot. The site does not invent expert revision history. Reference evidence is a recorded local snapshot, and live search/translation/database calls are disabled.
+The project homepage uses the MIRA overview and MuRA-Bench construction figures. The revision and evaluation interfaces are local demonstrations. Reference evidence is a recorded snapshot; live search, translation, and database calls are disabled.
 
 ## Additional case selection and media capacity
 
@@ -38,7 +32,7 @@ The gallery separates 3 YuE trajectories, 3 SongGeneration2 trajectories, 4 ACE-
 
 The gallery contains 13 cases, including the three tool-grounding examples restored at the author's request. There are 42 unique audio tracks including the evaluation demo: approximately 1,195 MB of originals and 195 MB of MP3 previews. The public website serves only 320 kbps MP3 for both playback and downloads. Original WAV/FLAC files are retained locally and are not published.
 
-The downloadable manuscript is the author-supplied MIRA_FINAL.pdf, updated 26 September 2026. The human-assessment protocol follows its Appendix B and Table 6. The four homepage audio tabs illustrate ACE-Step v1.5 Turbo outputs; their scores belong to individual examples, not aggregate experiment results.
+The downloadable manuscript is the author-supplied MIRA_FINAL.pdf, updated 26 September 2026. The human-assessment protocol follows its Appendix B and Table 6. The homepage audio comparison illustrates ACE-Step v1.5 Turbo outputs; case scores belong to individual examples, not aggregate experiment results.
 
 ## Website abstract
 

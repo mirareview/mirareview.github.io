@@ -1,9 +1,8 @@
 {
-  "status": "author-review",
   "benchmark": {
     "requests": 100,
     "rubrics": 1566,
-    "source": "Local full-100 evaluation snapshot; final release confirmation pending"
+    "source": "Full-100 evaluation snapshot"
   },
   "cases": 13,
   "evaluationCandidates": 4,
@@ -14,7 +13,7 @@
   "sources": [
     {
       "id": "paper",
-      "description": "Supplied anonymous manuscript snapshot, 16 September 2026"
+      "description": "Author-supplied MIRA_FINAL.pdf, updated 26 September 2026"
     },
     {
       "id": "benchmark",
@@ -30,7 +29,7 @@
     },
     {
       "id": "yue3",
-      "description": "Author-provided Yue3 component results; excluded superseded 0.859894 row"
+      "description": "YuE2-3B component results in MIRA_FINAL.pdf, Table 3; fixed subset of 20 requests"
     },
     {
       "id": "selected-trajectories",
@@ -38,7 +37,7 @@
     },
     {
       "id": "updated-result-tables",
-      "description": "Author-supplied main and cumulative-component table images, 21 September 2026. Main table: 19 rows, 11 metrics, three-decimal source precision. Earlier full-precision Yue3 ablation values retained; displayed values match the new table."
+      "description": "Main results: 19 rows and 11 metrics. Component results: ACE-Step v1.5 Turbo and YuE2-3B on the fixed 20-request subset, as reported in Table 3."
     }
   ],
   "caseGroups": {
@@ -47,7 +46,7 @@
     "yue": 3,
     "songgeneration2": 3
   },
-  "capacityStatus": "Pages contains MP3 audio and website assets. Original audio is retained locally only.",
+  "capacityStatus": "Public website serves MP3 audio. Original audio is retained locally only.",
   "deployment": {
     "mode": "github-pages-mp3-only",
     "audioFormat": "MP3 320 kbps",
